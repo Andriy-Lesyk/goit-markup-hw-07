@@ -3,7 +3,7 @@ body{
 }
 
 .logo{
-font-family: var(--raleway-font);
+font-family: $raleway-font;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
@@ -11,7 +11,7 @@ text-decoration: none;
 animation-duration: 1000ms;   
 }
 .logo-first{
-color: #2196F3;
+color:#2196F3;
 
 
 }
@@ -61,28 +61,28 @@ color: #000000;
     fill:#757575
 }
 .current-studio{
-    color:var(--accent-color);
+    color:$accent-color;
 }
 .current-studio::after{
     content:'';
     width: 100%;
     display: block;
     height: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     position: absolute;
     top: 44px;
     
 }
 
 .current-portfolio{
-    color:var(--accent-color);
+    color:$accent-color;
 }
 .current-portfolio::after{
     content:'';
     width: 100%;
     display: block;
     height: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     position: absolute;
     top: 45px;
     
@@ -100,13 +100,13 @@ color: #000000;
     align-items: center;
 }
 .icon-envelope:hover, .icon-envelope:focus, .icon-smartphone:hover, .icon-smartphone:focus{
-    fill:var(--accent-color);
+    fill:$accent-color;
 }
 .mail:focus .icon-envelope,
 .mail:hover .icon-envelope,
 .tel:hover .icon-smartphone,
 .tel:focus .icon-smartphone{
-    fill:var(--accent-color);
+    fill:$accent-color;
 }
 
 .container{
@@ -137,7 +137,7 @@ color: #000000;
 
 
 .nav{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -146,7 +146,7 @@ letter-spacing: 0.02em;
            
 }
 .nav-list{
-    color: var(--titles-color);
+    color: $titles-color;
     position: relative;
 }
 .nav-list, .contacts, .advantages-list, .we_made_job-list, .our-team-list, .btn-list, .examples-list {
@@ -160,13 +160,13 @@ list-style: none;
 .nav-list-studio:hover, .nav-list-studio:focus, 
 .nav-list-portfolio:hover, .nav-list-portfolio:focus, 
 .nav-list-contacts:hover, .nav-list-contacts:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .mail, .tel {
     text-decoration: none;
-    color: var(--items-color);
+    color: $items-color;
     font-style: normal;
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -175,5 +175,5 @@ list-style: none;
 }
 
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
-    color:var(--accent-color);
+    color:$accent-color;
 }

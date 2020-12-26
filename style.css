@@ -1,3 +1,4 @@
+
 :root{
     --accent-color:#2196F3;
     --roboto-font: Roboto, sans-serif;
@@ -31,7 +32,7 @@ body{
 }
 
 .logo{
-font-family: var(--raleway-font);
+font-family: $raleway-font;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
@@ -89,28 +90,28 @@ color: #000000;
     fill:#757575
 }
 .current-studio{
-    color:var(--accent-color);
+    color:$accent-color;
 }
 .current-studio::after{
     content:'';
     width: 100%;
     display: block;
     height: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     position: absolute;
     top: 44px;
     
 }
 
 .current-portfolio{
-    color:var(--accent-color);
+    color:$accent-color;
 }
 .current-portfolio::after{
     content:'';
     width: 100%;
     display: block;
     height: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     position: absolute;
     top: 45px;
     
@@ -128,13 +129,13 @@ color: #000000;
     align-items: center;
 }
 .icon-envelope:hover, .icon-envelope:focus, .icon-smartphone:hover, .icon-smartphone:focus{
-    fill:var(--accent-color);
+    fill:$accent-color;
 }
 .mail:focus .icon-envelope,
 .mail:hover .icon-envelope,
 .tel:hover .icon-smartphone,
 .tel:focus .icon-smartphone{
-    fill:var(--accent-color);
+    fill:$accent-color;
 }
 
 .container{
@@ -165,7 +166,7 @@ color: #000000;
 
 
 .nav{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -174,7 +175,7 @@ letter-spacing: 0.02em;
            
 }
 .nav-list{
-    color: var(--titles-color);
+    color: $titles-color;
     position: relative;
 }
 .nav-list, .contacts, .advantages-list, .we_made_job-list, .our-team-list, .btn-list, .examples-list {
@@ -188,13 +189,13 @@ list-style: none;
 .nav-list-studio:hover, .nav-list-studio:focus, 
 .nav-list-portfolio:hover, .nav-list-portfolio:focus, 
 .nav-list-contacts:hover, .nav-list-contacts:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .mail, .tel {
     text-decoration: none;
-    color: var(--items-color);
+    color: $items-color;
     font-style: normal;
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -203,7 +204,7 @@ list-style: none;
 }
 
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
-    color:var(--accent-color);
+    color:$accent-color;
 }
 
 }
@@ -223,14 +224,14 @@ list-style: none;
     background-color: #2F303A;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), 
+        rgba(47, 48, 58, 0.4), 
         url(./Images/Img\ \(7\)\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;  
 }
 
 .hero-title{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,364;
@@ -243,7 +244,7 @@ color: #FFFFFF;
 
 
 .hero-btn{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -251,7 +252,7 @@ line-height: 1.875;
 text-align: center;
 min-width: 200px;
 min-height: 50px;
-background-color: var(--accent-color);
+background-color: $accent-color;
 border-radius: 4px;
 
 /* identical to box height, or 187% */
@@ -270,25 +271,25 @@ color: #FFFFFF;
 /*--------------ADVANTAGES-------------*/
 .advantages-title{
     
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height:1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--titles-color);
+    color: $titles-color;
     margin-top: 30px;
 }
 .advantages-discription{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
 /* or 171% */
 letter-spacing: 0.03em;
-color: var(--items-color);
+color: $items-color;
 max-width: 270px;
 margin-top: 10px;
 }
@@ -341,13 +342,13 @@ margin-top: 10px;
 
 
 .we_made-title, .our_team-tilte, .constant-clients{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--titles-color);
+color: $titles-color;
 }
 
 .we-made-foto{
@@ -364,7 +365,7 @@ background: rgba(47, 48, 58, 0.8);
 width: 370px;
 transform: translateY(-100%);
 
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -400,25 +401,25 @@ color: #FFFFFF;
 }
 
 .our_team-item-title{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--titles-color);
+    color: $titles-color;
     
 }
 .our_team-item-position{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.188;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--items-color);
+color: $items-color;
 margin-bottom: 16px;
 }
 .card-item-studio{
@@ -489,7 +490,7 @@ margin-bottom: 16px;
    
 }
 .social-link:hover, .social-link:focus{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 .social-link:hover .social-icon,
 .social-link:focus .social-icon{
@@ -507,7 +508,7 @@ margin-bottom: 16px;
     list-style-type: none;
 }
 .constant-clients-title{
-    font-family:var(--roboto-font);
+    font-family:$roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -537,14 +538,14 @@ margin-bottom: 50px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon:hover, .clients-icon:focus{
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 .clients-link:hover, .clients-link:focus{
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon{
-    fill:var(--accent-color);
+    fill:$accent-color;
     
 }
 
@@ -575,7 +576,7 @@ margin-bottom: 20px;
     justify-content: space-between;
 }
 .footer-form-title{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -599,7 +600,7 @@ color: #FFFFFF;
     align-items: flex-start;
 }
 .footer-btn-title{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -627,7 +628,7 @@ color:#FFFFFF;
     color:#ffffff;
 }
 .footer-form-name{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -668,7 +669,7 @@ margin-bottom: 20px;
     padding-left: 0;
 }
 .adress-sity{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -736,7 +737,7 @@ margin-bottom: 9px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);;   
 }
 .modal-btn-close:hover, .modal-btn-close:focus{
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 .modal-close-icon{
     display: block;
@@ -765,23 +766,23 @@ margin-bottom: 9px;
 .modal-form-field:hover .modal-form-icon-tel, .modal-form-field:focus .modal-form-icon-tel,
 .modal-form-field:hover .modal-form-icon-name, .modal-form-field:focus .modal-form-icon-name
 {
-    fill: var(--accent-color);
+    fill: $accent-color;
     
 }
 .modal-form-input:focus +.modal-form-icon-name, 
 .modal-form-input:focus +.modal-form-icon-tel, 
 .modal-form-input:focus +.modal-form-icon-mail{
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 .modal-form-input:focus, .modal-form-textarea:focus{
-    outline-color: var(--accent-color);
+    outline-color: $accent-color;
 }
 
 .modal-form-field:hover .modal-form-input, .modal-form-field:focus .modal-form-input {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 } 
 .modal-form-field:focus {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 .modal-form-label{
     margin-bottom: 4px;
@@ -804,7 +805,7 @@ margin-bottom: 9px;
     padding: 12px;
 }
 .modal-form-field textarea::placeholder{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -838,7 +839,7 @@ padding-left: 4px;
 }
 
 .modal-form-btn{
-    font-family: var(--accent-color);
+    font-family: $accent-color;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -857,7 +858,7 @@ border-radius: 4px;
     margin-left: 3px;
 }
 .modal-policy label{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -869,7 +870,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .modal-form-field label{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -896,7 +897,7 @@ color: #757575;
 }
 .checkbox:checked+.checkbox-icon{
     border-color: transparent;
-    /*background-color: var(--accent-color);*/
+    /*background-color: $accent-color;*/
     background-image: url('./Images/icon_check_(1).svg');
     background-size: cover;
     background-origin: border-box;
@@ -906,7 +907,7 @@ color: #757575;
     align-items: center;
 }
 .modal-title{
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -966,7 +967,7 @@ padding-top: 94px;
      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -976,7 +977,7 @@ line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 
-color:var(--titles-color);
+color:$titles-color;
 }
 
 
@@ -996,14 +997,14 @@ color:var(--titles-color);
     width: 130px;
 }
 .btn-list{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--titles-color);
+color: $titles-color;
 
 }
 .btn-sheet:not(:last-child){
@@ -1055,7 +1056,7 @@ color: var(--titles-color);
     padding-right: 24px;
     padding-top: 63px;
     padding-bottom: 63px;
-    font-family: var(--roboto-font);
+    font-family: $roboto-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1075,24 +1076,24 @@ color: var(--titles-color);
 
 
 .examples-title{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--titles-color);
+color: $titles-color;
 padding-bottom: 4px;
 }
 
 .example-description{
-font-family: var(--roboto-font);
+font-family: $roboto-font;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
-color: var(--items-color);
+color: $items-color;
 }
 .padding{
     padding-bottom: 94px;
@@ -1102,7 +1103,7 @@ color: var(--items-color);
 }
 
 .btn-item:hover, .btn-item:focus{
-    background-color: var(--accent-color); 
+    background-color: $accent-color; 
     color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
