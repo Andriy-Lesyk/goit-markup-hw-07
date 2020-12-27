@@ -208,7 +208,7 @@ color: #757575;
 .checkbox:checked+.checkbox-icon{
     border-color:transparent;
     /*background-color: var(--accent-color);*/
-    background-image: url('../../Images/icon_check_\(1\).svg');
+    background-image: url('./../../Images/icon_check_\(1\).svg');
     background-size: cover;
     background-origin: border-box;
 }

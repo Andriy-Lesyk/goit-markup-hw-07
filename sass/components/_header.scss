@@ -12,7 +12,9 @@ body{
     position: relative;
 }
 &-logo{
-@include font(26px, 700, 31px)    
+font-size:26px;
+font-weight: 700; 
+line-height: 1.192;  
 font-family: $raleway-font;
 text-decoration: none; 
 animation-duration: 1000ms;   
