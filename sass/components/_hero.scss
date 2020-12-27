@@ -1,4 +1,7 @@
 .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 200px 0;
     background-color: #2F303A;
     background-image: linear-gradient(
@@ -7,13 +10,11 @@
         url("../../Images/Img\ \(7\)\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;  
-}
 
-.hero-title{
+
+&-title{
+@include font(44px, 900, 60px)
 font-family: $roboto-font;
-font-weight: 900;
-font-size: 44px;
-line-height: 1,364;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
@@ -21,8 +22,7 @@ margin-bottom: 30px;
 color: #FFFFFF;
 }
 
-
-.hero-btn{
+&-btn{
 font-family: $roboto-font;
 font-style: normal;
 font-weight: bold;
@@ -38,9 +38,4 @@ border-radius: 4px;
 
 color: #FFFFFF;
 }
-
-
-
-.container-hero-btn{
-    text-align: center;
 }
