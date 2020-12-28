@@ -1,7 +1,4 @@
 .hero{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     padding: 200px 0;
     background-color: #2F303A;
     background-image: linear-gradient(
@@ -10,11 +7,13 @@
         url(../../Images/img7.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
+}
 
-
-&-title{
-@include font(44px, 900, 60px)
-font-family: $roboto-font;
+.hero-title{
+font-family: var(--roboto-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,364;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
@@ -22,8 +21,9 @@ margin-bottom: 30px;
 color: #FFFFFF;
 }
 
-&-btn{
-font-family: $roboto-font;
+
+.hero-btn{
+font-family: var(--roboto-font);
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -31,11 +31,11 @@ line-height: 1.875;
 text-align: center;
 min-width: 200px;
 min-height: 50px;
-background-color: $accent-color;
+background-color: var(--accent-color);
 border-radius: 4px;
 
 /* identical to box height, or 187% */
 
 color: #FFFFFF;
 }
-}
+
